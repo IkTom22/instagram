@@ -1,10 +1,11 @@
 <script setup>
 import Container from './Container.vue';
+import UserBar from './UserBar.vue';
 </script>
 <template>
     <Container>
         <div class="profile-container">
-            <h1>USERBR</h1>
+            <UserBar/>
             <div>IMAGE GALLERY</div>
         </div>
     </Container>
